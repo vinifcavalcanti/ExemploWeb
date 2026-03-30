@@ -72,3 +72,27 @@ console.log(valor1 > 100 || valor2 > 10); //Só uma precisa ser verdadeira
 console.log(valor1 == valor2);
 console.log(valor2 === valor1);
 
+//Exercício 1
+let p = valor2
+let v = valor1
+let precoFinal = valor2 - valor1
+console.log("O preço final com desconto é", precoFinal)
+
+//Exercício 2 
+let a = 20
+let b = 10
+
+if(a === 20 && b >= 10){
+    console.log(true)
+} else{
+    console.log(false)
+}
+
+//Exercício 3 
+let userLogin = true;
+let userToken = true;
+
+if (userLogin == true && userToken == true){
+    console.log("Transação aprovada")
+}
+
